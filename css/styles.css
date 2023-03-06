@@ -1,0 +1,296 @@
+
+:root {
+    --open-sans-font: 'Open Sans', sans-serif;
+    --raleway-font: 'Raleway', sans-serif;
+    --white-color: #fff;
+    --black-color: #303030;
+    --grey-color: #555555;
+    --light-grey-color: #9DA4BD;
+    --orange-color: #FF6C00;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--open-sans-font);
+    color: var(--black-color);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/*=================================== header =============================================*/
+
+.header * {
+    color: var(--white-color);
+}
+.header {
+    background-color: #555555;
+}
+
+.main-nav-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+}
+
+.main-nav-link:is(:hover, :focus) {
+    color: var(--orange-color)
+}
+
+.tel {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.header-button {
+    color: var(--white-color);
+}
+
+/*=================================== hero-section =============================================*/
+
+.hero-section {
+    background-color: var(--grey-color);
+}
+
+.hero-social {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--black-color);
+}
+
+/* .hero-subtitle {} */
+
+.hero-title {
+    font-family: var(--raleway-font);
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: var(--white-color);
+}
+
+.hero-descr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--light-grey-color);
+}
+
+/*=================================== About-section =============================================*/
+.about-subtitle {
+    color: var(--black-color);
+}
+
+.about-title {
+    font-family: var(--raleway-font);
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+
+.about-descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: var(--grey-color);
+}
+
+.about-descr > span {
+    font-size: 18px;
+    line-height: 1.67;
+}
+
+.about-button {
+    color: var(--black-color);
+}
+
+/*=================================== Services-section =============================================*/
+
+.services-subtitle {
+    color: rgba(157, 164, 189, 0.6);
+}
+.services-title {
+    font-family: var(--raleway-font);
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--white-color);
+}
+
+.price-list {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--light-grey-color);
+}
+
+.services-button {
+    color: var(--white-color);
+}
+
+/*=================================== Feature-section =============================================*/
+.benefits-item > span {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: calc(57 / 42);
+    letter-spacing: 0.05em;
+}
+
+.benefits-item > p {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15 / 11);
+}
+
+.benefits-title {
+    font-family: var(--raleway-font);
+    font-size: 42px;
+    line-height: calc(49 / 42);
+    letter-spacing: 0.05em;
+    color: var(--black-color);
+}
+
+.benefits-descr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--grey-color);
+}
+
+/*=================================== Team-section =============================================*/
+
+.team-title {
+    font-family: var(--raleway-font);
+    font-size: 42px;
+    line-height: calc(49 / 42);
+    letter-spacing: 0.05em;
+    color: var(--black-color);
+}
+
+.team-list-item > .name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(25 / 18);
+    letter-spacing: 0.02em;
+}
+
+.team-list-item > .profession {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(19 / 14);
+    letter-spacing: 0.02em;
+    color: var(--orange-color);
+}
+
+/*=================================== Gallery-section =============================================*/
+
+
+/*=================================== Contacts-section =============================================*/
+
+.contacts-title {
+    font-family: var(--raleway-font);
+    font-size: 42px;
+    line-height: calc(49 / 42);
+    letter-spacing: 0.05em;
+    color: var(--white-color);
+}
+
+.contact {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(30 / 18);
+    letter-spacing: 0.02em;
+    color: var(--light-grey-color);
+}
+
+.address-link {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--light-grey-color);
+}
+
+.link.contact.mail {
+    text-decoration: underline;
+}
+
+.contacts-descr {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15 / 11);
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+/*=================================== Footer  =============================================*/
+.copyright {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15 / 11);
+    letter-spacing: 0.2em;
+    color: var(--light-grey-color);
+}
+
+.footer-social {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15 / 11);
+    letter-spacing: 0.2em;
+    color: inherit;
+}
